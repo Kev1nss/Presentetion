@@ -1,0 +1,79 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #222;
+  padding: 0;
+  margin: 0;
+}
+img{
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+}
+.incone{
+  height: 26px;
+  border-radius: 100%;
+
+
+}
+.fot{
+  color: red;
+
+}
+#presentetion{
+  color: #fff;
+  background-color: #222;
+  background: url(/img/orion.jpg);
+  padding: 30px;
+}
+
+h1{
+  /*centraliza o texto*/
+  text-align: center;
+}
+
+.item{
+  background: #111;
+  color: #fff;
+  padding:30px;
+  /*separa caixas usa margin e redondar borda usa borda radius*/
+  border-radius: 4px;
+  margin: 20px;
+}
+
+span{
+  color: #febe01
+}
+p{
+  coloar: #b2b2b2
+}
+h2{
+  padding: 10px;
+  margin: 20px;
+}
+p{
+  text-align: center;
+}
+/* a para estilizar o link */
+
+
+
+a{
+  /*botão respeitar o espaço o tamanhao o a*/
+  display: inline-block;
+  /* background para cor dele do fundo*/
+  background: #febe01;
+  color: #332200;
+  /* paddin para desgrudar das bordas */
+  padding: 10px;
+  border-radius: 4px;
+  /* tirar o sublinhado */
+  text-decoration: none;
+
+
+}
+footer{
+  padding: 10px;
+  margin: 20px;
+
+}
