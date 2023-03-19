@@ -13,8 +13,6 @@ img{
 .incone{
   height: 26px;
   border-radius: 100%;
-
-
 }
 .fot{
   color: red;
@@ -28,7 +26,6 @@ img{
 }
 
 h1{
-  /*centraliza o texto*/
   text-align: center;
 }
 
@@ -36,16 +33,15 @@ h1{
   background: #111;
   color: #fff;
   padding:30px;
-  /*separa caixas usa margin e redondar borda usa borda radius*/
   border-radius: 4px;
   margin: 20px;
 }
 
 span{
-  color: #febe01
+  color: #bbed2f
 }
 p{
-  coloar: #b2b2b2
+  coloar: #bbed2f
 }
 h2{
   padding: 10px;
@@ -54,20 +50,16 @@ h2{
 p{
   text-align: center;
 }
-/* a para estilizar o link */
+
 
 
 
 a{
-  /*botão respeitar o espaço o tamanhao o a*/
   display: inline-block;
-  /* background para cor dele do fundo*/
-  background: #febe01;
-  color: #332200;
-  /* paddin para desgrudar das bordas */
+  background: #eee;
+  color: #4b4b4b;
   padding: 10px;
   border-radius: 4px;
-  /* tirar o sublinhado */
   text-decoration: none;
 
 
@@ -77,3 +69,24 @@ footer{
   margin: 20px;
 
 }
+ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 100px;
+}
+.nav1{
+  text-decoration: none;
+  background-color: #;
+  padding: 15px 30px;
+  display: block;
+}
+.itemNav{
+  margin: 20px;
+  text-align: center;
+  color: #eee;
+  display: inline-block;
+
+}
+
