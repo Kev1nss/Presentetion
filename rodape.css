@@ -1,0 +1,16 @@
+.rodap{
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.incone{
+  height: 26px;
+  border-radius: 100%;
+  justify-content:  center;
+}
+.fot{
+  color: red;
+
+}
