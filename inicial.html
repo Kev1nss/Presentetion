@@ -11,21 +11,27 @@
   <title>INICIAL</title>
 </head>
 <body>
+  <header class="header">
   <img src="" alt="LOGO"><h1> LOGO DA MARCA </h1>
 
 
-  <div class="menu">
-    <a class="botao1" href="./inicial.html">Home</a>
-    <a class="botao1" href="./formacao.html">Formação</a>
-    <a class="botao1" href="./experiencia.html">Experiências</a>
-    <a class="botao1" href="./complementares.html">Complementares</a>
-    
+  <nav aria-label="primaria">
+    <ul class="menu">
+      <li><a class="botao1" href="./inicial.html">Home</a></li>
+      <li><a class="botao1" href="./formacao.html">Formação</a></li>
+      <li><a class="botao1" href="./experiencia.html">Experiências</a></li>
+      <li><a class="botao1" href="./complementares.html">Complementares</a></li>
 
-  </div>
-<div class="conteudo"> 
-  <div class="introducao">
+
+    </ul>
+
+  </header>
+ 
+<main> 
+  <article class="conteudo">
+  <div class="introducao" aria-labelledby="label-introducao">
     <span class="detalhe"></span>
-    <h1> Sobre Mim.</h1>
+    <h1 id="label-introducao"> Sobre Mim.</h1>
     <p>Me formei no Instituto Federal Fluminense no curso técnico de informática onde pude conhecer
       um pouco sobre a área de tecnologia.<br> Para obter uma visão mais estratégica de mercado,
       graduei-me e pós-graduei-me em Comunicação e Marketing, desenvolvendo então habilidades
@@ -35,41 +41,42 @@
   </div>
 
   <img src="./img/kev.jpeg" alt="imagem do Kevyn">
+</article>
+<article class="conteudo" aria-labelledby="label-vantagens">
+  <h2 class="subtitulo" id="label-vantagens"> Formas <br>de<br> Contato: </h2>
 
-  <h2 class="subtitulo"> Formas <br>de<br> Contato: </h2>
-
-  <div class="vantagens">
-    <div class="vantagens-item">
+  <ul class="vantagens">
+    <li class="vantagens-item">
       <img src="./img/inc.png" alt="icone">
       <h3> E-mail.</h3>
       <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmXGFgbJVssBspQdxzcHjQmTfxvfMzcGpzcqqDHCRzQthVWklQphwJsrwMXVxLwZlNBgSH">kevyn628@gmail.com</a>
 
-    </div>
-    <div class="vantagens-item">
+    </li>
+    <li class="vantagens-item">
       <img src="./img/inc.png" alt="icone">
       <h3> GitHub.</h3>
       <a href="https://github.com/Kev1nss" target="_blank">Kev1nss</a>
 
-    </div>
-    <div class="vantagens-item">
+    </li>
+    <li class="vantagens-item">
       <img src="./img/inc.png" alt="icone">
       <h3> Linkedin.</h3>
       <a href="https://www.linkedin.com/in/kevyn-silva-637b40156/" target="_blank">Kevyn Silva</a>
 
-    </div>
+    </li>
      
 
-    </div>
-    
-  </div>
+  </ul>
+  </article>
+  </main>
 
 
 </div>
 
 
-<div class="rodap">
+<footer class="rodap">
   <p><img class= "incone" src="/img/inc.png" alt=""><span class="fot">Contato: </span> kevyn628@gmail.com </p>
-</div>
+</footer>
 
 
 

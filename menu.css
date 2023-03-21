@@ -7,14 +7,20 @@
  
 
 }
-
+ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
 
 .menu a{
+  display: block;
   background: #ffffff;
   padding: 15px 30px;
   border-radius: 4px;
   color: #000000;
   text-transform: uppercase;
+  border: 2px solid#ffffff;
   
 }
 .botao{
@@ -29,6 +35,7 @@
   color: #000000;
 
 }
+
 a{
   text-decoration: none;
 }

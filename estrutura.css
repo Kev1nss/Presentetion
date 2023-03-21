@@ -8,7 +8,11 @@ body{
   margin-top: 60px;
   
 }
-
+.header{
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
 .conteudo{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -24,21 +28,26 @@ body{
   align-content: center;
   gap: 20px;
   justify-items: end;
+ 
 
+}
+.introducao h1{
+  font-size: 2rem;
 }
 .vantagens-intem p{
   grid-column: 2;
 }
 
 
-.detalhe{
+
+.introducao:before{
+  content: "";
   width: 60px;
   height: 4px;
   background: #65ed2f98;
   position: absolute;
   top: 30px;
   right: -30px;
-
 
 }
 .icones{
@@ -79,6 +88,14 @@ body{
   gap: 5px 10px;
   padding: 20px;
 
+
+}
+.vantagens-item:hover{
+  border-left: 4px solid #65ed2f98;
+
+}
+.vantagens-item:nth-child(odd){
+  background:#f7f7f7;
 
 }
 

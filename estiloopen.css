@@ -106,3 +106,16 @@ a{
   justify-content: stretch;
 
 }
+.acessar a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background: rgba(7, 65, 34, 0.638);
+    transition: .4s;
+  
+
+}
+img:hover{
+  border: 2px solid rgb(255, 255, 255);
+
+  
+}
+
