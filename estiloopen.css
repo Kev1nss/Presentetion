@@ -82,9 +82,9 @@ p{
 }
 
 
-a{
+.bot{
   text-decoration: none;
-  text-align: end;
+  text-align: start;
   color: #eee;
   display: inline-block;
   text-transform: uppercase;
@@ -92,17 +92,15 @@ a{
   padding: 1px 10px;
   background: #65ed2f98;
   border-radius: 100px;
-  align-self: center;
+  align-self: end;
   width: 140px;
-
- 
 }
 .acessar{
   display: grid;
   gap: 100px;
-  place-items: end;
-  padding: 180px;
-  margin: 0px;
+  place-items: start;
+  padding: 0px;
+  margin-top: 140px;
   justify-content: stretch;
 
 }
@@ -118,4 +116,5 @@ img:hover{
 
   
 }
+
 
