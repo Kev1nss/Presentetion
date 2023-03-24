@@ -168,13 +168,37 @@ p{
 
 }
 
+.cover img{
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+
+}
 
 /* Parte de responsividade CSS */
 
 
 @media screen and (max-width: 600px) {
+  body{
+    gap:30px;
+    margin-top: 20px;
+  }
+  .header{
+    gap: 30px;
+  }
   .conteudo {
     grid-template-columns: 1fr; /* Grid de uma coluna */
+  }
+  .subtitulo{
+    text-align: center;
+    font-size: 3rem;
+  }
+  .introducao{
+    text-align: left;
+  }
+  .introducao::before{
+    display: none;
+    justify-items: start;
   }
 }
 @media (max-width: 600px) {
@@ -182,9 +206,17 @@ p{
     font-size: 12px;
   }
 }
+@media(max-width: 400px){
+  .subtitulo{
+    font-size: 2rem;
+  }
+}
 @media (min-width: 1200px) {
   html {
     font-size: 20px;
+  }
+  p{
+    font-size: 1rem;
   }
 }
 

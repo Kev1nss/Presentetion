@@ -20,6 +20,7 @@ img{
 p, h1{
   margin: 0px;
   color: #eee;
+  max-width: 60ch;
 
 }
 
@@ -116,5 +117,35 @@ img:hover{
 
   
 }
+.cover img{
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
 
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .conteudo {
+    grid-template-columns: 1fr; /* Grid de uma coluna */
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media print {
+  body{
+    background: #9d9a9a;
+  }
+  
+}
 
