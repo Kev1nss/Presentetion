@@ -27,7 +27,7 @@ body{
 .introducao{
   background: #ffffff;
   padding: 40px;
-  text-align: right;
+  text-align: left;
   position: relative;
   display: grid;
   align-content: center;
@@ -75,9 +75,12 @@ body{
 
 
 }
-
+.log{
+    width: 30px; /* Define a largura da imagem como 200 pixels */
+    height: auto; /* Mantém a proporção original da imagem */
+}
 .subtitulo{
-  font-size: 64px;
+  font-size: 50px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
   text-align: right;
@@ -107,7 +110,6 @@ body{
 .continua{
   background: #fff;
   padding: 20px;
-
   display: grid;
   grid-template-columns: 1fr;
   max-width: 961px;
@@ -119,9 +121,10 @@ body{
 .text{
   display: grid;
   margin-right: 20px;
-  margin-left: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
   margin-bottom: 40px;
-  text-align: right;
+  text-align: left;
 }
 .vantagens-item{
   display: grid;
@@ -174,6 +177,9 @@ p{
   object-position: top left;
 
 }
+#label-introducao{
+  text-align: right;
+  font-size: 38px;
 
 /* Parte de responsividade CSS */
 
@@ -213,7 +219,7 @@ p{
 }
 @media (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
   p{
     font-size: 1rem;
