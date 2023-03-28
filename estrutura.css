@@ -47,7 +47,11 @@ body{
 .vantagens-intem p{
   grid-column: 2;
 }
+.introducao-cover img{
+  object-fit: cover;
+  height: 100%;
 
+}
 
 
 .introducao:before{
@@ -88,6 +92,7 @@ body{
   margin-top: 0px;
   align-self: center;
   display: grid;
+ 
  
 }
 .subtitulo2{
@@ -161,74 +166,16 @@ p{
 
 }
 
-
-
-
 .conteudo{
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
 
 }
-
-.cover img{
-  height: 100%;
-  object-fit: cover;
-  object-position: top left;
-
-}
 #label-introducao{
   text-align: right;
   font-size: 38px;
+}
 
 /* Parte de responsividade CSS */
 
-
-@media screen and (max-width: 600px) {
-  body{
-    gap:30px;
-    margin-top: 20px;
-  }
-  .header{
-    gap: 30px;
-  }
-  .conteudo {
-    grid-template-columns: 1fr; /* Grid de uma coluna */
-  }
-  .subtitulo{
-    text-align: center;
-    font-size: 3rem;
-  }
-  .introducao{
-    text-align: left;
-  }
-  .introducao::before{
-    display: none;
-    justify-items: start;
-  }
-}
-@media (max-width: 600px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media(max-width: 400px){
-  .subtitulo{
-    font-size: 2rem;
-  }
-}
-@media (min-width: 1200px) {
-  html {
-    font-size: 18px;
-  }
-  p{
-    font-size: 1rem;
-  }
-}
-
-@media print {
-  body{
-    background: #9d9a9a;
-  }
-  
-}
