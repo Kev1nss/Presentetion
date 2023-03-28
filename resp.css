@@ -5,6 +5,11 @@
   .subtitulo{
     text-align: center;
   }
+  .trajetoria{
+    text-align: left;
+    font-size: 3rem;
+  }
+
 }
 @media(max-width: 600px){
   body{
@@ -27,16 +32,19 @@
   .subtitulo{
     font-size: 3rem;
   }
+
 }
 
 @media (max-width: 400px){
   .subtitulo{
     font-size: 2rem;
   }
+  
   p{
     font-size: 1rem;
   }
   .classp{
     font-size: 1rem;
   }
+
 }
