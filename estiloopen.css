@@ -82,35 +82,7 @@ p{
 }
 
 
-.bot{
-  text-decoration: none;
-  text-align: start;
-  color: #eee;
-  display: inline-block;
-  text-transform: uppercase;
-  position: relative;
-  padding: 1px 10px;
-  background: #65ed2f98;
-  border-radius: 100px;
-  align-self: end;
-  width: 140px;
-}
-.acessar{
-  display: grid;
-  gap: 100px;
-  place-items: start;
-  padding: 0px;
-  margin-top: 140px;
-  justify-content: stretch;
 
-}
-.acessar a:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background: rgba(7, 65, 34, 0.638);
-    transition: .4s;
-  
-
-}
 img:hover{
   border: 2px solid rgb(255, 255, 255);
 
@@ -122,7 +94,61 @@ img:hover{
   object-position: top left;
 
 }
+.bot{
+  text-decoration: none;
+  text-align: start;
+  color: #eee;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+  padding: 1px 2px;
+  background: #000;
+  border-radius: 100px;
+  align-self: end;
+  width: 140px;
+}
 
 
 
+button {
+  --color: #035104;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
 
+button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 150px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+button:hover {
+  color: white;
+}
+
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+button:hover::before {
+  top: -30px;
+  left: -30px;
+}
